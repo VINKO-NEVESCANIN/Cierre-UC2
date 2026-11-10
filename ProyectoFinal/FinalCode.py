@@ -12,8 +12,4 @@ with open ("calificaciones.txt", "r") as archivo:
         
 n = int(input("Ingresa un numero Entero:"))
 
-for i in range(1, n +1):
-    if i % 2 == 0:
-        print(i, "Es un numero par")
-    else:
-        print(i, "Es un numpero impar")                   
+                  
